@@ -1,0 +1,88 @@
+.wrapper {
+    width: 100%;
+    height: 2000px;
+}
+
+.block {
+    display: flex;
+    margin: 50px auto 0;
+    width: 70%;
+    height: 800px;
+    background-color: gray;
+}
+.block_column {
+    display: flex;
+    margin: 0 25px 0 25px;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    background-color: green;
+}
+
+.visibility-in-between {
+    display: none;
+}
+
+.visibility-right {
+    display: none;
+}
+
+.stuff {
+    display: flex;
+    margin: 0 auto 30px;
+    height: 100px;
+    width: 97%;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+}
+
+.text-style {
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+.stuff-new-height {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    cursor: auto;
+}
+
+.button-close {
+    margin-top: 40px;
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: green;
+    border-color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.notification {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 70px;
+    background-color: chartreuse;
+}
+
+.notification-visibility {
+    display: none;
+}
+
+.notification_text {
+    font-size: 20px;
+    color: black;
+    cursor: auto;
+}
