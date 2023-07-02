@@ -16,6 +16,71 @@
         <div class="notification notification-visibility">
             <p class="notification_text">This item has been bought!</p>
         </div>
+        <form action="#" class="block-form hidden">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="city">City</label>
+            <select id="city" name="city">
+                <option value="empty">-</option>
+                <option value="dnipro">Dnipro</option>
+                <option value="kiev">Kiev</option>
+                <option value="odessa">Odessa</option>
+                <option value="lviv">Lviv</option>
+            </select><br>
+            <label for="post-dnipro">Dnipro</label>
+            <select id="post-dnipro" name="post-dnipro" disabled>
+                <option value="empty">-</option>
+                <option value="street 1d">Street 1d</option>
+                <option value="street 2d">Street 2d</option>
+                <option value="street 3d">Street 3d</option>
+                <option value="street 4d">Street 4d</option>
+            </select><br>
+            <label for="post-kiev">Kiev</label>
+            <select id="post-kiev" name="post-kiev" disabled>
+                <option value="empty">-</option>
+                <option value="street 1k">Street 1k</option>
+                <option value="street 2k">Street 2k</option>
+                <option value="street 3k">Street 3k</option>
+                <option value="street 4k">Street 4k</option>
+            </select><br>
+            <label for="post-odessa">Odessa</label>
+            <select id="post-odessa" name="post-odessa" disabled>
+                <option value="empty">-</option>
+                <option value="street 1o">Street 1o</option>
+                <option value="street 2o">Street 2o</option>
+                <option value="street 3o">Street 3o</option>
+                <option value="street 4o">Street 4o</option>
+            </select><br>
+            <label for="post-lviv">Lviv</label>
+            <select id="post-lviv" name="post-lviv" disabled>
+                <option value="empty">-</option>
+                <option value="street 1l">Street 1l</option>
+                <option value="street 2l">Street 2l</option>
+                <option value="street 3l">Street 3l</option>
+                <option value="street 4l">Street 4l</option>
+            </select><br>
+            <label for="cash">By cash</label>
+            <input type="radio" id="cash" name="payment" value="cash">
+            <label for="credit-card">By credit card</label>
+            <input type="radio" id="credit-card" name="payment" value="credit card"><br>
+            <label for="comment">Comment</label>
+            <textarea id="comment" name="comment" rows="4" cols="30"></textarea><br>
+            <label for="amount">Amount</label>
+            <input type="text" id="amount" name="amount"><br>
+            <span class="message"></span>
+            <button type="submit" class="block-form_submit-button">Save</button>
+            <button type="reset" class="block-form_reset-button">Reset input</button>
+        </form>
+        <div class="data-info">
+            <p class="data-info_name"></p>
+            <p class="data-info_model"></p>
+            <p class="data-info_city"></p>
+            <p class="data-info_delivery"></p>
+            <p class="data-info_payment"></p>
+            <p class="data-info_amount"></p>
+            <p class="data-info_comment"></p>
+            <button class="data-info_return-button">Go back</button>
+        </div>
     </div>
     <script type="module" src="main.js"></script>
 </body>

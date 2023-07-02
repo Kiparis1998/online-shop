@@ -55,7 +55,8 @@
 }
 
 .button-close {
-    margin-top: 40px;
+    margin-top: 60px;
+    margin-right: 5px;
     width: 70px;
     height: 30px;
     color: white;
@@ -85,4 +86,60 @@
     font-size: 20px;
     color: black;
     cursor: auto;
+}
+
+.block-form {
+    margin: 30px auto 0;
+    padding: 30px;
+    width: 300px;
+    background-color: #b3b3b4;
+}
+
+#name,
+#credit card,
+#city {
+    margin-bottom: 15px;
+}
+
+#cash {
+    margin: 15px 0;
+}
+
+#address {
+    margin-bottom: 15px;
+    resize: none;
+    width: 250px;
+}
+
+.block-form_return-button {
+    margin: 20px auto 0;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.message {
+    display: block;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.warning-border {
+    border: 2px solid red;
+}
+
+.data-info {
+    display: none;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    background-color: #747270;
+    color: white;
+}
+
+.data-info_return-button {
+    margin: 5px 0 15px 0;
 }
